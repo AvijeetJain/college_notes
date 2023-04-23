@@ -1,5 +1,4 @@
-# Python3 program to demonstrate
-# working of Alpha-Beta Pruning
+# Program to demonstrate working of Alpha-Beta Pruning
 
 # Initial values of Alpha and Beta
 MAX, MIN = 1000, -1000
