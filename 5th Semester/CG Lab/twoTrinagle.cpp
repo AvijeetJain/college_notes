@@ -3,17 +3,20 @@
 
 
 void display() {
-    glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     glPointSize(12);
     glBegin(GL_LINES);
     glColor3f(1.0f, 1.0f, 1.0f);
     glVertex2f(0.2f, 0.2f);
     glVertex2f(-0.1f, -0.1f);
+
     glVertex2f(0.2f, 0.2f);
     glVertex2f(0.5f, -0.1f);
+
     glVertex2f(-0.1f, -0.1f);
     glVertex2f(0.5f, -0.1f);
+
     glVertex2f(-0.1f, 0.3f);
     glVertex2f(0.5f, 0.3f);
 

@@ -14,12 +14,9 @@ void display() {
     glVertex2f(0.5f, -0.2f);
     glVertex2f(-0.1f, -0.2f);
     glVertex2f(0.5f, -0.2f);
-
-
     glEnd();
     glFlush();
 }
-
 
 int main(int argc, char** argv) {
     glutInit(&argc, argv);
@@ -28,7 +25,5 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(50, 50);
     glutDisplayFunc(display);
     glutMainLoop();
-
-
     return 0;
 }

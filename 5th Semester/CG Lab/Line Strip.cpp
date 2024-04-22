@@ -26,5 +26,4 @@ int main(int argc, char** argv) {
     glutInitWindowPosition(50, 50);
     glutDisplayFunc(display);
     glutMainLoop();
-
 }
